@@ -6,3 +6,13 @@
     margin: auto;
     text-align: center;
 }
+
+@media screen and(max-width: 680px) {
+    .branches{
+        margin: auto;
+    }
+
+    .branches li{
+        text-align: left;
+    }
+}

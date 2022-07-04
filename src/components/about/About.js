@@ -12,14 +12,13 @@ const About = () => {
                 Gateway Plaza, opposite Kogi State University Anyigba
             </address>
 
-            <p>Branches:
-                <ul class="branches">
-                    {
-                        locations && locations.map((location, key)=>
-                        <li><span><GrLocation /></span>{location}</li>)
-                    }
-                </ul>
-            </p>
+            <p>Branches:</p>
+            <ul className="branches">
+                {
+                    locations && locations.map((location, key) =>
+                        <li key={key}><span><GrLocation /></span>{location}</li>)
+                }
+            </ul>
         </section>
     )
 }
