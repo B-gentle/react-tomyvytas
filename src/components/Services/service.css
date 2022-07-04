@@ -1,0 +1,32 @@
+.services{
+    text-align: center;
+}
+.services ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    
+}
+
+.services ul li{
+    font-size: 1.5rem;
+    font-family: drink-names;
+    line-height: 0.1;
+}
+
+.drinks{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 6px 15px 6px rgba(0,0,0,0.5);
+}
+
+@media screen and (max-width: 680px) {
+    .services ul li{
+        font-size: 1.5rem;
+        font-family: drink-names;
+        line-height: 0.1;
+    }
+}

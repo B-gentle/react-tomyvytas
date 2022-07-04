@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+  font-family: body;
+}
+
+section{
+  margin: 70px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 10px 10px 5px rgb(233, 207, 207);
+  padding: 15px 5px;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: drink-names;
+  src: url(fonts/righteous/Righteous-Regular.ttf);
+}
+
+@font-face {
+  font-family: navbar;
+  src: url(fonts/kanit/Kanit-Medium.ttf);
+}
+
+@font-face {
+  font-family: nav-header;
+  src: url(fonts/kanit/Kanit-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: header-title;
+  src: url(fonts/kanit/Kanit-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: body;
+  src: url(fonts/kanit/Kanit-Light.ttf);
+}
+
+@font-face {
+  font-family: footer;
+  src: url(fonts/kanit/Kanit-ExtraLightItalic.ttf);
+}

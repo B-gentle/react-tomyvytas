@@ -1,0 +1,66 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 2rem;
+}
+
+nav div ul {
+    display: flex;
+}
+
+nav div ul li {
+    font-family: navbar;
+    font-size: 1.3rem;
+}
+
+.nav-logo-text span{
+    font-family: nav-header;
+    font-size: 2rem;
+}
+
+.dropdown{
+    font-size: 2rem;
+    display: none;
+}
+ul li{
+    list-style: none;
+    list-style-position: inside;
+    margin: 1px 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+@media screen and (max-width: 680px) {
+    nav{
+        font-size: 1.2rem;
+        position: relative;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 1px 1rem;
+     
+    }  
+    nav div ul{
+        display: none;
+        flex-direction: column;
+        margin-top:2px;
+        width: 100%;
+        padding-left: 0;
+        transition: all ease 0.2s;
+
+    }
+
+    nav div ul.drop{
+        display: block;
+    }
+
+    .dropdown{
+        display: block;
+        position: absolute;
+        left: 85%;
+        top: 10px;
+    }
+}
