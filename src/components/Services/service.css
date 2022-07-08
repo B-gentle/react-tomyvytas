@@ -1,11 +1,15 @@
 .services{
     text-align: center;
+    margin: auto;
+    display: block;
 }
 .services ul{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     gap: 3rem;
+    padding-inline-start: 0;
     
 }
 

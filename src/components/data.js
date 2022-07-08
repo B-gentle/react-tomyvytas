@@ -6,6 +6,11 @@ import fourCousins from './../images/Four-Cousins-Wine.png';
 import nineteenSixty from './../images/1960.jpeg';
 import BetaMalt from './../images/beta-malt.jpg';
 import redWine from './../images/red_wine.jpg';
+import EagleStout from './../images/eagle-stout.png';
+import GrandMalt from './../images/grand-malt.jpg';
+import StarLite from './../images/starlite-bottle-min.png';
+import TrophyCan from './../images/trophy_can.jpg';
+import TrophyStout from './../images/trophystout.jpg';
 
 const drinks = [{
         img: trophy,
@@ -38,6 +43,26 @@ const drinks = [{
     {
         img: redWine,
         label: 'Red Wine'
+    },
+    {
+        img: EagleStout,
+        label: 'Eagle Stout'
+    },
+    {
+        img: GrandMalt,
+        label: 'Grand Malt'
+    },
+    {
+        img: StarLite,
+        label: 'Star Lite'
+    },
+    {
+        img: TrophyCan,
+        label: 'Trophy Can'
+    },
+    {
+        img: TrophyStout,
+        label: 'Trophy Stout'
     }
 ]
 

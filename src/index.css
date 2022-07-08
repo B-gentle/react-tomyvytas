@@ -48,3 +48,8 @@ code {
   font-family: footer;
   src: url(fonts/kanit/Kanit-ExtraLightItalic.ttf);
 }
+
+@font-face {
+  font-family: welcomeAddress;
+  src: url(fonts/kanit/Kanit-LightItalic.ttf);
+}

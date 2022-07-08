@@ -6,6 +6,7 @@ import Banner from './components/HeaderSection/Banner';
 import Navbar from './components/Navbar/Navbar';
 import OpeningHours from './components/OpeningHours/OpeningHours';
 import Services from './components/Services/Services';
+import WelcomeAddress from './components/WelcomeAddress/WelcomeAddress';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
      <OpeningHours />
      <Contact />
      <About />
+     <WelcomeAddress />
      <Footer />
     </div>
   );

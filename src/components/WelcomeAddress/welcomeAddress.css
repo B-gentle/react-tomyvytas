@@ -1,0 +1,8 @@
+.welcome-address{
+    font-family: WelcomeAddress;
+}
+.welcome-address img{
+    width: 200px;
+    float: left;
+    border-radius: 20px;
+}
